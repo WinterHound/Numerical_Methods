@@ -1,4 +1,4 @@
-Simple programme to find roots of the equation.
+Simple programme to find roots of the equation using C++.
 
 Methods available :
 
