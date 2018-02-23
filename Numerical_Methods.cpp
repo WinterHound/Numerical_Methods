@@ -34,28 +34,28 @@ int main (int argc, char const *argv[]){
 
     case 1: 
     cout << "------------------------------------------------------------------------------------------------------\n";
-    cout << "\t\t\vBISECTION METHOD : \n\nEnter the number of Irritation and Precision :\n";
+    cout << "\t\t\vBISECTION METHOD : \n\nEnter the number of Ieration and Precision :\n";
     cin >> i >> p;
     bisection_method (i,p,x=0); bisection_method (i,p,x=-10);
     break;
 
     case 2: 
     cout << "------------------------------------------------------------------------------------------------------\n";
-    cout << "\t\t\vREGULAT FLASE METHOD : \n\nEnter the number of Irritation and Precision :\n";
+    cout << "\t\t\vREGULAT FLASE METHOD : \n\nEnter the number of Ieration and Precision :\n";
     cin >> i >> p;
     regular_falsi (i,p,x=0); regular_falsi (i,p,x=-10);
     break;
 
     case 3:
     cout << "------------------------------------------------------------------------------------------------------\n";
-    cout << "\t\t\vNEWTON RAPHSON METHOD : \n\nEnter the number of Irritation and Precision :\n";
+    cout << "\t\t\vNEWTON RAPHSON METHOD : \n\nEnter the number of Ieration and Precision :\n";
     cin >> i >> p;
     newton_raphson (i,p,x=0); newton_raphson (i,p,x=-10);
     break;
 
     case 4: 
     cout << "------------------------------------------------------------------------------------------------------\n";
-    cout << "\t\t\vSECANT METHOD : \n\nEnter the number of Irritation and Precision :\n";
+    cout << "\t\t\vSECANT METHOD : \n\nEnter the number of Ieration and Precision :\n";
     cin >> i >> p;
     secant_method (i,p,x=0); secant_method (i,p,x=-10);
     break;
@@ -189,7 +189,7 @@ double secant_method (int i, int p, int x){
 double auto_limit_mn (int x){
     int i=0, j=0, k; double z;
     if (x < 0)k=0;
-      else if (x=0)k=11;
+      else if (x==0)k=11;
     do{ 
       z = input_equation(x);      
       if (z < 0) i = x;
