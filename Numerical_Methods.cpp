@@ -14,13 +14,13 @@ double mtn[1];
 
 double input_equation (double b){
   double equation;
-  equation = pow(b,6.0)-8*b - 5;                                                                                  
+  equation = pow(b,6.0)-8*b - 5;                                                          //Enter equation                                                                                
   return equation;
 }
 
 double diff_equation (double b){
   double diff_equation;
-  diff_equation = 6*pow(b,5) - 8;                                                                                             
+  diff_equation = 6*pow(b,5) - 8;                                                         //Differential equation                                                                                            
   return diff_equation;
 }
 
